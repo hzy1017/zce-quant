@@ -1,3 +1,6 @@
+# ---- 本机配置（终端路径等），不提交 ----
+config.local
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
@@ -24,8 +27,6 @@ data/clean/
 data/clean_live/
 data/backtest/
 
-# ---- 临时文件 ----
+# ---- 临时文件与 Office 锁文件 ----
 *.tmp
-
-# ---- Office 临时锁文件 ----
-~\$*
+~$*

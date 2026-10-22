@@ -51,36 +51,59 @@ zce/
 
 ## 环境与依赖
 
-必须使用带 pandas 的 Python（系统 Python 3.12 只有 pip，跑不了）：
-
-```powershell
-$py = "C:\Users\17636\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe"
-```
+需要一个带 pandas / numpy 的 Python 3.12 解释器。下文用 `python` 代指该解释器，
+请自行替换为实际路径（例如虚拟环境中的 `\.venv\Scripts\python.exe`）。
 
 | 依赖 | 版本 | 用途 |
 |---|---|---|
-| Python | 3.12.14 | 运行时 |
-| pandas | 3.0.1 | 数据处理 |
-| numpy | 2.3.5 | 数值计算 |
+| Python | 3.12 | 运行时 |
+| pandas | 3.0 | 数据处理 |
+| numpy | 2.3 | 数值计算 |
+| python-docx | 1.2 | 生成 Word 报告（可选） |
 
-无需安装其他包。原始数据由 `Sina` 接口缓存为 `.js` 文件，本模块只读不下载。
+```powershell
+python -m pip install pandas numpy python-docx
+```
+
+原始数据由新浪接口缓存为 `.js` 文件，本模块只读不下载。
+
+## 配置（本机路径不进仓库）
+
+项目根目录**自动识别**（`src/zce/config.py` 的上两级），无需配置。
+
+官方模拟终端路径（用于读取合约规格与费率）不会提交到仓库，需在本机指定其一：
+
+**方式一：环境变量**
+
+```powershell
+$env:ZCE_TERMINAL_HOME = "D:\path\to\Epolestar"    # 终端安装目录
+```
+
+**方式二：项目根下新建 `config.local`**（已在 .gitignore 中，不会提交）
+
+```
+ZCE_TERMINAL_HOME=D:\path\to\Epolestar
+```
+
+未配置时，凡是需要合约元数据的功能都会抛出明确提示，而不会静默失败。
+仅使用行情与回测（`build_dataset.py`、`run_phase4c.py` 的行情部分）时可以不配置。
 
 ## 运行
 
 ```powershell
-cd "D:\ai tools\zce"
-$py = "C:\Users\17636\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe"
+cd <项目根>
+python -m pip install pandas numpy
 
 # 1) 可选：刷新到最新交易日（写入 raw_live/ contracts_live/，不动快照）
-& $py scripts\refresh_data.py
+python scripts\refresh_data.py
 
 # 2) 构建（snapshot = 审计快照；live = 快照+刷新覆盖）
-& $py scripts\build_dataset.py          # → data/clean,  data/meta
-& $py scripts\build_dataset.py live     # → data/clean_live, data/meta_live
+python scripts\build_dataset.py          # → data/clean,  data/meta
+python scripts\build_dataset.py live     # → data/clean_live, data/meta_live
 
 # 3) 报告与测试
-& $py scripts\quality_report.py [live]
-& $py tests\test_pipeline.py            # 31 项，基于快照
+python scripts\quality_report.py [live]
+python tests\test_pipeline.py            # 31 项，基于快照
 ```
 
 构建是**幂等**的：两次运行产物 sha256 一致（测试 [6] 已验证）。

@@ -59,7 +59,12 @@ def _parse_unit_multiplier(text: str) -> float | None:
 
 
 def load_f10(path: Path | None = None) -> pd.DataFrame:
-    """读取 F10 合约规格表，仅保留郑商所期货。"""
+    """读取 F10 合约规格表，仅保留郑商所期货。
+
+    未显式传入 path 时依赖 config 中的终端路径；未配置会给出可读错误。
+    """
+    if path is None:
+        config.require_terminal()
     path = Path(path or config.F10_FILE)
     text = path.read_text(encoding="utf-8", errors="replace")
     rows = list(csv.reader(io.StringIO(text)))

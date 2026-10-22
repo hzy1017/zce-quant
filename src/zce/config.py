@@ -1,15 +1,47 @@
 """全局配置：路径与常量。
 
+可配置项（避免把本机路径写进仓库）：
+1. 项目根：默认自动识别（本文件位于 <root>/src/zce/config.py），
+   可用环境变量 `ZCE_ROOT` 覆盖。
+2. 官方模拟终端：可用环境变量 `ZCE_TERMINAL_HOME` 指定，
+   或在项目根放置 `config.local`（键=值，已加入 .gitignore）。
+
+`config.local` 示例：
+    ZCE_TERMINAL_HOME=D:\\path\\to\\Epolestar
+    ZCE_ROOT=D:\\path\\to\\zce
+
 原则：
-1. 原始数据目录（raw/ contracts/）只读，本模块所有输出写入 data/ 与 reports/。
+1. 原始数据目录（raw/ contracts/）只读，所有输出写入 data/ 与 reports/。
 2. 不硬编码任何账号、令牌或密钥。
 """
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
+_LOCAL_FILE = "config.local"
+
+
+def _read_local() -> dict[str, str]:
+    """读取项目根下的 config.local（简单 键=值，不执行代码）。"""
+    f = Path(__file__).resolve().parents[2] / _LOCAL_FILE
+    out: dict[str, str] = {}
+    if not f.exists():
+        return out
+    for line in f.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, val = line.split("=", 1)
+        out[key.strip()] = val.strip().strip('"').strip("'")
+    return out
+
+
+_LOCAL = _read_local()
+
 # ---- 项目根 ----
-ROOT = Path(r"D:\ai tools\zce")
+_default_root = Path(__file__).resolve().parents[2]
+ROOT = Path(os.environ.get("ZCE_ROOT") or _LOCAL.get("ZCE_ROOT") or _default_root)
 
 RAW_DIR = ROOT / "raw"                 # 27 个品种主力连续（Sina JSONP，审计快照）
 CONTRACT_DIR = ROOT / "contracts"      # 703 个单合约（Sina JSONP，审计快照）
@@ -28,10 +60,29 @@ REPORT_DIR = ROOT / "reports"
 LOG_DIR = ROOT / "logs"
 
 # ---- 官方模拟终端（合约与费率元数据来源，只读）----
-TERMINAL = Path(r"D:\study\期货\Epolestar000450v9.5")
+# 通过环境变量 ZCE_TERMINAL_HOME 或 config.local 指定；未配置时相关功能会给出明确提示。
+_terminal = os.environ.get("ZCE_TERMINAL_HOME") or _LOCAL.get("ZCE_TERMINAL_HOME") or ""
+TERMINAL = Path(_terminal) if _terminal else Path()
 F10_FILE = TERMINAL / "Server" / "config" / "BaseData" / "CspAccessApi.F10.pub"
 COMMODITY_FILE = TERMINAL / "Server" / "config" / "BaseData" / "CspAccessApi.Commodity.pub"
 CALCPARAM_FILE = TERMINAL / "Server" / "config" / "EsTrade.CalcParam.pri"
+
+
+def terminal_configured() -> bool:
+    """终端路径是否已配置（用于给出友好报错）。"""
+    return bool(_terminal) and TERMINAL.exists()
+
+
+def require_terminal() -> Path:
+    """需要终端元数据时调用；未配置则抛出可读错误。"""
+    if not _terminal:
+        raise RuntimeError(
+            "未配置官方模拟终端路径。请设置环境变量 ZCE_TERMINAL_HOME，"
+            f"或在项目根创建 {_LOCAL_FILE} 写入：ZCE_TERMINAL_HOME=<终端安装目录>"
+        )
+    if not TERMINAL.exists():
+        raise RuntimeError(f"终端路径不存在：{TERMINAL}")
+    return TERMINAL
 
 # ---- 比赛规则常量（见阶段二报告，来源：郑商函〔2026〕670号）----
 CONTEST_INITIAL_EQUITY = 500_000.0     # 初始虚拟保证金

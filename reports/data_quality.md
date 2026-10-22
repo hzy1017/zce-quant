@@ -65,11 +65,10 @@
 ## 5. 复现方式
 
 ```powershell
-$py = "C:\Users\17636\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe"
-& $py scripts\refresh_data.py           # 可选：刷新到最新交易日
-& $py scripts\build_dataset.py [live]   # 构建，写入 data/ 或 data/clean_live
-& $py scripts\quality_report.py [live]  # 生成本报告
-& $py tests\test_pipeline.py            # 验收测试
+python scripts\refresh_data.py           # 可选：刷新到最新交易日
+python scripts\build_dataset.py [live]   # 构建，写入 data/ 或 data/clean_live
+python scripts\quality_report.py [live]  # 生成本报告
+python tests\test_pipeline.py            # 验收测试
 ```
 
 输出清单见 `D:/ai tools/zce/data/meta/manifest.json`（含每个产物的 sha256）。
