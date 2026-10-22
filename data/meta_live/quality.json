@@ -1,0 +1,105 @@
+{
+ "dataset": "live",
+ "source_dirs": [
+  "D:\\ai tools\\zce\\raw",
+  "D:\\ai tools\\zce\\raw_live",
+  "D:\\ai tools\\zce\\contracts",
+  "D:\\ai tools\\zce\\contracts_live"
+ ],
+ "calendar_days": 5309,
+ "calendar_start": "2005-01-04",
+ "calendar_end": "2026-10-21",
+ "contracts": {
+  "sorted_ok": true,
+  "label": "single-contracts",
+  "rows": 148953,
+  "start": "2021-01-18",
+  "end": "2026-10-21",
+  "dup_dates": 0,
+  "ohlc_bad": 0,
+  "nonpos": 0,
+  "settle_zero": 133,
+  "zero_vol": 0,
+  "zero_oi": 100,
+  "range_suspect": 184,
+  "wick_suspect": 222,
+  "suspect_rows": 573
+ },
+ "continuous": {
+  "sorted_ok": true,
+  "label": "continuous",
+  "rows": 63361,
+  "start": "2005-01-04",
+  "end": "2026-10-21",
+  "dup_dates": 0,
+  "ohlc_bad": 202,
+  "nonpos": 0,
+  "settle_zero": 5920,
+  "zero_vol": 714,
+  "zero_oi": 140,
+  "range_suspect": 156,
+  "wick_suspect": 168,
+  "suspect_rows": 7004
+ },
+ "main_series": {
+  "rows": 24522,
+  "symbols": 20,
+  "rolls": 374
+ },
+ "missing_days_by_symbol": {
+  "AP": 3,
+  "CF": 2,
+  "CJ": 0,
+  "CY": 57,
+  "FG": 0,
+  "MA": 0,
+  "OI": 0,
+  "PF": 1,
+  "PK": 0,
+  "PL": 0,
+  "PR": 0,
+  "PX": 0,
+  "RM": 0,
+  "SA": 0,
+  "SF": 0,
+  "SH": 0,
+  "SM": 0,
+  "SR": 0,
+  "TA": 0,
+  "UR": 0
+ },
+ "fee_reconciliation": {
+  "status_counts": {
+   "month_varying": 12,
+   "match": 11,
+   "constant_mismatch": 3,
+   "no_calc_record": 1
+  },
+  "mismatch_codes": [
+   "CY",
+   "FG",
+   "JR",
+   "LR",
+   "MA",
+   "PF",
+   "PK",
+   "PL",
+   "PR",
+   "PX",
+   "SA",
+   "SF",
+   "SH",
+   "SM",
+   "SR",
+   "UR"
+  ]
+ },
+ "multiplier": {
+  "missing": [],
+  "unit_vs_dot_conflict": [
+   "PF",
+   "PK"
+  ]
+ },
+ "readme": "所有 flag_* 为质量标记；qc_suspect=True 表示至少命中一条可疑规则。"
+}

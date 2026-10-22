@@ -1,0 +1,140 @@
+{
+ "generated_by": "zce.build",
+ "dataset": "snapshot",
+ "outputs": {
+  "contracts_clean.csv": {
+   "rows": 147082,
+   "cols": [
+    "contract",
+    "symbol",
+    "month",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "settle",
+    "settle_raw",
+    "volume",
+    "open_interest",
+    "usable",
+    "qc_suspect",
+    "flag_dup_date",
+    "flag_nonpos",
+    "flag_ohlc",
+    "flag_settle_zero",
+    "flag_zero_vol",
+    "flag_zero_oi",
+    "flag_range",
+    "flag_wick"
+   ],
+   "sha256": "f79628e4c21a88199a581c16bac8e577ce6ee567047588dd0cd9adc3f101d490"
+  },
+  "continuous_clean.csv": {
+   "rows": 63088,
+   "cols": [
+    "series",
+    "symbol",
+    "date",
+    "open",
+    "high",
+    "low",
+    "close",
+    "settle",
+    "settle_raw",
+    "volume",
+    "open_interest",
+    "usable",
+    "qc_suspect",
+    "flag_range",
+    "flag_wick"
+   ],
+   "sha256": "e6cae380e57e493c728506ff3a938da587b0de7d2bfea2e9298b8f2696da979c"
+  },
+  "main_series.csv": {
+   "rows": 24262,
+   "cols": [
+    "symbol",
+    "date",
+    "contract",
+    "open",
+    "high",
+    "low",
+    "close",
+    "settle",
+    "volume",
+    "open_interest",
+    "prev_contract"
+   ],
+   "sha256": "1e59e93f2571461574627572b7097152d14013b5159ebb54e217e8d204c8afb5"
+  },
+  "rolls.csv": {
+   "rows": 365,
+   "cols": [
+    "symbol",
+    "date",
+    "prev_contract",
+    "contract",
+    "close",
+    "settle",
+    "open_interest"
+   ],
+   "sha256": "fc46a1154dc4192e9c8ccf74fb4a40630769414a1cd18e3d0e11685017ab8d7e"
+  },
+  "contract_master.csv": {
+   "rows": 27,
+   "cols": [
+    "code",
+    "name",
+    "unit_text",
+    "tick",
+    "multiplier",
+    "multiplier_dot",
+    "multiplier_source",
+    "limit_text",
+    "trading_time",
+    "has_night",
+    "last_trading_rule",
+    "margin_text",
+    "base_margin",
+    "fee_text",
+    "fee_kind",
+    "fee_value",
+    "fee_contest",
+    "tradable"
+   ],
+   "sha256": "e39ba7757b65e2423024cae1e48ec6ecf828a1edb6352c041a5d7a25667ef958"
+  },
+  "calcparam.csv": {
+   "rows": 374,
+   "cols": [
+    "code",
+    "month",
+    "fee_contest_calc",
+    "margin_long",
+    "margin_short"
+   ],
+   "sha256": "016f99fef4d9ce800bcfe71611e0ef001f957fcb979dad3828e068e4e4a79f0a"
+  },
+  "fee_reconciliation.csv": {
+   "rows": 27,
+   "cols": [
+    "code",
+    "name",
+    "fee_text",
+    "fee_kind",
+    "fee_value",
+    "fee_contest",
+    "calc_min",
+    "calc_max",
+    "n_months",
+    "calc_varies",
+    "status"
+   ],
+   "sha256": "1530094bd860291db483ff8717f09bd9a8648c33de370e4b6a7c6955317f95b5"
+  },
+  "quality.json": {
+   "sha256": "52c82e79aa05a3a91a4892fe60b183515b8ab5448b3b2943f91cc1de91fc9503"
+  }
+ }
+}

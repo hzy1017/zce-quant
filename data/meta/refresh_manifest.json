@@ -1,0 +1,1598 @@
+{
+ "refreshed_at": "2026-10-22T08:38:29",
+ "source": "sina InnerFuturesNewService.getDailyKLine",
+ "total": 214,
+ "ok": 171,
+ "failed": 43,
+ "latest_date": "2026-10-21",
+ "min_date": "2022-06-23",
+ "failures": [
+  {
+   "sym": "AP2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "AP2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "AP2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CJ2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CJ2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CY2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CY2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "CY2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "FG2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "FG2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "MA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "MA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "OI2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "OI2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PK2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PK2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PK2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PL2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PL2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PX2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "PX2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "RM2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "RM2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SH2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SH2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SM2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SM2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "SR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "TA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "TA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "UR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  },
+  {
+   "sym": "UR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null,
+   "error": "文件过小"
+  }
+ ],
+ "files": [
+  {
+   "sym": "SR0",
+   "ok": true,
+   "bytes": 602648,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF0",
+   "ok": true,
+   "bytes": 653568,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CY0",
+   "ok": true,
+   "bytes": 265365,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA0",
+   "ok": true,
+   "bytes": 579015,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA0",
+   "ok": true,
+   "bytes": 346363,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI0",
+   "ok": true,
+   "bytes": 563636,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM0",
+   "ok": true,
+   "bytes": 402760,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RS0",
+   "ok": true,
+   "bytes": 308890,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG0",
+   "ok": true,
+   "bytes": 402095,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA0",
+   "ok": true,
+   "bytes": 200540,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP0",
+   "ok": true,
+   "bytes": 256114,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ0",
+   "ok": true,
+   "bytes": 220192,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK0",
+   "ok": true,
+   "bytes": 166148,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR0",
+   "ok": true,
+   "bytes": 207994,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF0",
+   "ok": true,
+   "bytes": 347119,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM0",
+   "ok": true,
+   "bytes": 345878,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH0",
+   "ok": true,
+   "bytes": 89078,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX0",
+   "ok": true,
+   "bytes": 89024,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF0",
+   "ok": true,
+   "bytes": 174959,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR0",
+   "ok": true,
+   "bytes": 60858,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL0",
+   "ok": true,
+   "bytes": 35550,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "ZC0",
+   "ok": true,
+   "bytes": 200953,
+   "last_date": "2022-12-30"
+  },
+  {
+   "sym": "WH0",
+   "ok": true,
+   "bytes": 481911,
+   "last_date": "2023-02-28"
+  },
+  {
+   "sym": "PM0",
+   "ok": true,
+   "bytes": 17759,
+   "last_date": "2022-06-23"
+  },
+  {
+   "sym": "RI0",
+   "ok": true,
+   "bytes": 278374,
+   "last_date": "2022-06-30"
+  },
+  {
+   "sym": "JR0",
+   "ok": true,
+   "bytes": 133486,
+   "last_date": "2022-12-30"
+  },
+  {
+   "sym": "LR0",
+   "ok": true,
+   "bytes": 105741,
+   "last_date": "2022-06-29"
+  },
+  {
+   "sym": "AP2610",
+   "ok": true,
+   "bytes": 28187,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2611",
+   "ok": true,
+   "bytes": 25648,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2612",
+   "ok": true,
+   "bytes": 23109,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2701",
+   "ok": true,
+   "bytes": 21107,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2703",
+   "ok": true,
+   "bytes": 16730,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2705",
+   "ok": true,
+   "bytes": 11970,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2611",
+   "ok": true,
+   "bytes": 27273,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2701",
+   "ok": true,
+   "bytes": 22409,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2703",
+   "ok": true,
+   "bytes": 17905,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2705",
+   "ok": true,
+   "bytes": 12735,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2707",
+   "ok": true,
+   "bytes": 7773,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2612",
+   "ok": true,
+   "bytes": 23704,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2701",
+   "ok": true,
+   "bytes": 21405,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2703",
+   "ok": true,
+   "bytes": 17127,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2705",
+   "ok": true,
+   "bytes": 12272,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2707",
+   "ok": true,
+   "bytes": 7498,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CY2610",
+   "ok": true,
+   "bytes": 5247,
+   "last_date": "2026-09-29"
+  },
+  {
+   "sym": "CY2611",
+   "ok": true,
+   "bytes": 10699,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CY2612",
+   "ok": true,
+   "bytes": 2365,
+   "last_date": "2026-10-19"
+  },
+  {
+   "sym": "CY2701",
+   "ok": true,
+   "bytes": 13331,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CY2703",
+   "ok": true,
+   "bytes": 5536,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CY2705",
+   "ok": true,
+   "bytes": 3525,
+   "last_date": "2026-10-20"
+  },
+  {
+   "sym": "FG2610",
+   "ok": true,
+   "bytes": 27557,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2611",
+   "ok": true,
+   "bytes": 25927,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2612",
+   "ok": true,
+   "bytes": 23553,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2701",
+   "ok": true,
+   "bytes": 21236,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2703",
+   "ok": true,
+   "bytes": 16945,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2705",
+   "ok": true,
+   "bytes": 12118,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2707",
+   "ok": true,
+   "bytes": 7493,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2610",
+   "ok": true,
+   "bytes": 28053,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2611",
+   "ok": true,
+   "bytes": 26243,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2612",
+   "ok": true,
+   "bytes": 23882,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2701",
+   "ok": true,
+   "bytes": 21540,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2703",
+   "ok": true,
+   "bytes": 17242,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2705",
+   "ok": true,
+   "bytes": 12224,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2707",
+   "ok": true,
+   "bytes": 7465,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2611",
+   "ok": true,
+   "bytes": 25977,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2701",
+   "ok": true,
+   "bytes": 21547,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2703",
+   "ok": true,
+   "bytes": 17201,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2705",
+   "ok": true,
+   "bytes": 12295,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2707",
+   "ok": true,
+   "bytes": 7550,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2610",
+   "ok": true,
+   "bytes": 23365,
+   "last_date": "2026-10-09"
+  },
+  {
+   "sym": "PF2611",
+   "ok": true,
+   "bytes": 22145,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2612",
+   "ok": true,
+   "bytes": 20387,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2701",
+   "ok": true,
+   "bytes": 19927,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2703",
+   "ok": true,
+   "bytes": 13713,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2705",
+   "ok": true,
+   "bytes": 10920,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2707",
+   "ok": true,
+   "bytes": 5275,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK2610",
+   "ok": true,
+   "bytes": 27245,
+   "last_date": "2026-10-12"
+  },
+  {
+   "sym": "PK2611",
+   "ok": true,
+   "bytes": 25987,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK2612",
+   "ok": true,
+   "bytes": 23025,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK2701",
+   "ok": true,
+   "bytes": 20278,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK2703",
+   "ok": true,
+   "bytes": 15637,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PK2705",
+   "ok": true,
+   "bytes": 11485,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2610",
+   "ok": true,
+   "bytes": 15325,
+   "last_date": "2026-10-12"
+  },
+  {
+   "sym": "PL2611",
+   "ok": true,
+   "bytes": 12986,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2612",
+   "ok": true,
+   "bytes": 13197,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2701",
+   "ok": true,
+   "bytes": 16942,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2703",
+   "ok": true,
+   "bytes": 9073,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2705",
+   "ok": true,
+   "bytes": 9524,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PL2707",
+   "ok": true,
+   "bytes": 5605,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2610",
+   "ok": true,
+   "bytes": 20470,
+   "last_date": "2026-10-15"
+  },
+  {
+   "sym": "PR2611",
+   "ok": true,
+   "bytes": 20173,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2612",
+   "ok": true,
+   "bytes": 18787,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2701",
+   "ok": true,
+   "bytes": 17390,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2703",
+   "ok": true,
+   "bytes": 12524,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2705",
+   "ok": true,
+   "bytes": 10785,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2707",
+   "ok": true,
+   "bytes": 4605,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2610",
+   "ok": true,
+   "bytes": 23465,
+   "last_date": "2026-10-14"
+  },
+  {
+   "sym": "PX2611",
+   "ok": true,
+   "bytes": 23604,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2612",
+   "ok": true,
+   "bytes": 21083,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2701",
+   "ok": true,
+   "bytes": 20627,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2703",
+   "ok": true,
+   "bytes": 15191,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2705",
+   "ok": true,
+   "bytes": 11828,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2707",
+   "ok": true,
+   "bytes": 5938,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2611",
+   "ok": true,
+   "bytes": 26463,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2701",
+   "ok": true,
+   "bytes": 21576,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2703",
+   "ok": true,
+   "bytes": 17389,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2705",
+   "ok": true,
+   "bytes": 12304,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2707",
+   "ok": true,
+   "bytes": 7619,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2610",
+   "ok": true,
+   "bytes": 27789,
+   "last_date": "2026-10-19"
+  },
+  {
+   "sym": "SA2611",
+   "ok": true,
+   "bytes": 26221,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2612",
+   "ok": true,
+   "bytes": 23800,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2701",
+   "ok": true,
+   "bytes": 21515,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2703",
+   "ok": true,
+   "bytes": 17195,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2705",
+   "ok": true,
+   "bytes": 12278,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2707",
+   "ok": true,
+   "bytes": 7592,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2610",
+   "ok": true,
+   "bytes": 27287,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2611",
+   "ok": true,
+   "bytes": 25203,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2612",
+   "ok": true,
+   "bytes": 22772,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2701",
+   "ok": true,
+   "bytes": 20909,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2703",
+   "ok": true,
+   "bytes": 16099,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2705",
+   "ok": true,
+   "bytes": 11893,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2707",
+   "ok": true,
+   "bytes": 7118,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2610",
+   "ok": true,
+   "bytes": 26561,
+   "last_date": "2026-10-19"
+  },
+  {
+   "sym": "SH2611",
+   "ok": true,
+   "bytes": 25652,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2612",
+   "ok": true,
+   "bytes": 23611,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2701",
+   "ok": true,
+   "bytes": 21174,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2703",
+   "ok": true,
+   "bytes": 16813,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2705",
+   "ok": true,
+   "bytes": 12053,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2707",
+   "ok": true,
+   "bytes": 7446,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2610",
+   "ok": true,
+   "bytes": 26777,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2611",
+   "ok": true,
+   "bytes": 23267,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2612",
+   "ok": true,
+   "bytes": 22735,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2701",
+   "ok": true,
+   "bytes": 21165,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2703",
+   "ok": true,
+   "bytes": 15899,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2705",
+   "ok": true,
+   "bytes": 12008,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2707",
+   "ok": true,
+   "bytes": 6696,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2611",
+   "ok": true,
+   "bytes": 26323,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2701",
+   "ok": true,
+   "bytes": 21498,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2703",
+   "ok": true,
+   "bytes": 17226,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2705",
+   "ok": true,
+   "bytes": 12287,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2707",
+   "ok": true,
+   "bytes": 7584,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2610",
+   "ok": true,
+   "bytes": 26693,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2611",
+   "ok": true,
+   "bytes": 25648,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2612",
+   "ok": true,
+   "bytes": 23633,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2701",
+   "ok": true,
+   "bytes": 21626,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2703",
+   "ok": true,
+   "bytes": 17194,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2705",
+   "ok": true,
+   "bytes": 12213,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2707",
+   "ok": true,
+   "bytes": 7105,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2610",
+   "ok": true,
+   "bytes": 27863,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2611",
+   "ok": true,
+   "bytes": 25816,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2612",
+   "ok": true,
+   "bytes": 23482,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2701",
+   "ok": true,
+   "bytes": 21306,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2703",
+   "ok": true,
+   "bytes": 16858,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2705",
+   "ok": true,
+   "bytes": 12082,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2707",
+   "ok": true,
+   "bytes": 7274,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "AP2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "AP2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "AP2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CF2709",
+   "ok": true,
+   "bytes": 2559,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CJ2709",
+   "ok": true,
+   "bytes": 2488,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "CJ2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CJ2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CY2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CY2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "CY2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "FG2709",
+   "ok": true,
+   "bytes": 2451,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "FG2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "FG2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "MA2709",
+   "ok": true,
+   "bytes": 2484,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "MA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "MA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "OI2709",
+   "ok": true,
+   "bytes": 2473,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "OI2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "OI2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PF2709",
+   "ok": true,
+   "bytes": 1832,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PK2709",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PK2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PK2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PL2709",
+   "ok": true,
+   "bytes": 945,
+   "last_date": "2026-10-08"
+  },
+  {
+   "sym": "PL2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PL2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PR2709",
+   "ok": true,
+   "bytes": 1826,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PX2709",
+   "ok": true,
+   "bytes": 2182,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "PX2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "PX2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "RM2709",
+   "ok": true,
+   "bytes": 2488,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "RM2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "RM2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SA2709",
+   "ok": true,
+   "bytes": 2496,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SF2709",
+   "ok": true,
+   "bytes": 2292,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SF2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SF2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SH2709",
+   "ok": true,
+   "bytes": 2441,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SH2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SH2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SM2709",
+   "ok": true,
+   "bytes": 2406,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SM2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SM2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SR2709",
+   "ok": true,
+   "bytes": 2495,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "SR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "SR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "TA2709",
+   "ok": true,
+   "bytes": 2466,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "TA2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "TA2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "UR2709",
+   "ok": true,
+   "bytes": 2437,
+   "last_date": "2026-10-21"
+  },
+  {
+   "sym": "UR2711",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  },
+  {
+   "sym": "UR2801",
+   "ok": false,
+   "bytes": 0,
+   "last_date": null
+  }
+ ]
+}

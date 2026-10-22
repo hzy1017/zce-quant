@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+.DS_Store
+
+# ---- 运行日志 ----
+logs/
+
+# ---- 旧版 JS 研究项目产物（已被 Python 管线取代）----
+out/
+
+# ---- 增量刷新目录（可由 scripts/refresh_data.py 重新生成）----
+raw_live/
+contracts_live/
+
+# ---- 构建产物（可由 scripts/build_dataset.py 重新生成）----
+data/clean/
+data/clean_live/
+data/backtest/
+
+# ---- 临时文件 ----
+*.tmp
