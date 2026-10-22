@@ -3,6 +3,32 @@
 第九届“郑商所杯”大学生金融衍生品专业能力大赛 —— 本地研究系统。
 **仅用于离线研究、回测与信号生成；不下单、不连接账户、不接触真实资金。**
 
+## 快速开始
+
+```powershell
+cd <项目根>
+.\run.ps1            # 查看所有子命令
+.\run.ps1 brief      # 每日决策简报 + 信号卡
+.\run.ps1 test       # 跑全部测试（63 项）
+```
+
+`run.ps1` 会自动寻找带 pandas/numpy 的 Python 解释器（依次检查 `ZCE_PYTHON` 环境变量、
+`config.local`、PATH、常见安装目录）；都找不到时会打印安装指引。
+
+常用子命令：
+
+| 命令 | 作用 | 产出 |
+|---|---|---|
+| `.\run.ps1 brief` | 风险预算 + 主力合约快照 + 信号卡 | `reports/daily_brief.md` |
+| `.\run.ps1 test` | 三套测试 | 终端输出 |
+| `.\run.ps1 refresh` | 刷新到最新交易日 | `raw_live/`、`contracts_live/` |
+| `.\run.ps1 build live` | 重建清洗数据集 | `data/clean_live/` |
+| `.\run.ps1 backtest` | 基线回测 | `reports/backtest_report.md` |
+| `.\run.ps1 quality live` | 数据质量报告 | `reports/data_quality_live.md` |
+| `.\run.ps1 doc` | Word 研究报告 | `reports/郑商所杯量化研究文档.docx` |
+
+典型日常流程：`refresh` → `build live` → `brief`。
+
 ## 当前阶段
 
 - 阶段一：环境与数据审计 ✅
